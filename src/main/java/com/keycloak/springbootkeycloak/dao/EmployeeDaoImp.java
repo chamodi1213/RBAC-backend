@@ -12,10 +12,8 @@ import java.util.List;
 @Repository
 public class EmployeeDaoImp implements EmployeeDAO{
 
-    //    define entitymanager
     private EntityManager entityManager;
 
-    //    constructor injection
     @Autowired
     public EmployeeDaoImp (EntityManager entityManager){
         this.entityManager = entityManager;
